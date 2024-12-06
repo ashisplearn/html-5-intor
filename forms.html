@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalam r pitha ghor</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .pitha{
+            margin-top: 15px;
+        }
+        .submit{
+            border: 2px solid rgb(244, 112, 112);
+            border-radius: 4px;
+            margin: 10px;
+            box-shadow: 4px 4px 3px rgb(247, 112, 112);
+            background-color: rgb(187, 187, 248);
+            color: rgb(54, 117, 77);
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <h2>Please fill up the form</h2>
+                <label for="name">Your name:
+                    <input id="name" type="text" placeholder="Your name">
+                </label>
+                <label for="phone">Your phone:
+                    <input type="text" placeholder="Your phone">
+                </label>
+                <label for="email">Your email:
+                    <input id="email" type="text" placeholder="Your email">
+                </label>
+
+                <fieldset class="pitha">
+                    <legend>Select one</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="kulsi">
+                        <input type="radio" name="pitha" id="kulsi">Kulsi
+                    </label>
+                </fieldset>
+
+                <fieldset class="pitha">
+                    <legend>Select one or more vorta</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa">Sorisa
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="sutki">Sutki
+                    </label>
+                    <label for="chilli">
+                        <input type="checkbox" name="vorta" id="chilli">Chilli
+                    </label>
+                </fieldset>
+                 
+                <fieldset class="pitha">
+                    <legend>Special instruction</legend>
+                    <textarea name="" id="" cols="25" rows="4"></textarea>
+                </fieldset>
+                <input class="pitha submit" type="reset" value="Reset">
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
