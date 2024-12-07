@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salary table</title>
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
-        table{
+
+        table {
             border-collapse: collapse;
         }
-        td{
+
+        td,
+        th {
             border: 2px solid rgb(134, 134, 252);
             padding: 5px 10px;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h2>Html table</h2>
+        <nav>
+            <ul>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
+            <h2>Html table</h2>
             <table>
                 <caption>Employee salary data</caption>
                 <thead>
                     <tr>
-                        <td>No.</td>
-                        <td>Name</td>
-                        <td>Company</td>
-                        <td>Salary</td>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Salary</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -84,4 +98,5 @@
 
     </main>
 </body>
+
 </html>
