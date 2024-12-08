@@ -1,6 +1,7 @@
-nav > ul {
+nav > ul { 
     display: flex;
 }
+/* nav > ul mana immadate child tag k style kora */
 nav li{
     list-style: none;
     margin-right: 10px;
@@ -13,4 +14,15 @@ nav li:hover{
 nav ul a{
     text-decoration: none;
     color: black;
+}
+
+/* nested menu */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+}
+
+nav li:hover .dropdown{
+    display: block;
 }

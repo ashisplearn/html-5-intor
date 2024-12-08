@@ -1,0 +1,19 @@
+nav > ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li .down{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+}
+nav li:hover> .down{
+    display: block;
+}
